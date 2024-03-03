@@ -32,5 +32,15 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(second3.multiply(),7)
         self.assertEqual(third3.multiply(),576)
         self.assertEqual(fouth3.multiply(),3024)
+    def test_caluc_division(self):
+        first4 = caluc.calculator(15, 3)
+        second4 = caluc.calculator(18,3)
+        third4 = caluc.calculator(144, 12)
+        fouth4 = caluc.calculator(20, 5)
+
+        self.assertEqual(first4.division(),5)
+        self.assertEqual(second4.division(),6)
+        self.assertEqual(third4.division(),12)
+        self.assertEqual(fouth4.division(),4)
 if __name__ == "__main__":
     unittest.main()
