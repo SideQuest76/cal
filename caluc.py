@@ -10,5 +10,9 @@ class calculator:
     def multiply(self):
         return self.a * self.b
     def division(self):
-        return self.a / self.b
+        try:
+            avara = self.a / self.b
+        except ZeroDivisionError:
+            avara = "nakupuninin"
+        return avara
     #AAAAAA
