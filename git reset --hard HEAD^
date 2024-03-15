@@ -1,0 +1,42 @@
+[33mcommit f2236d9331205fe2ed18cd03e28d903529a0f455[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature-RUD[m[33m, [m[1;31morigin/feature-RUD[m[33m, [m[1;31morigin/develop[m[33m, [m[1;32mdevelop[m[33m)[m
+Merge: 4fdbd23 167188e
+Author: SideQuest <krausermause.62@gmail.com>
+Date:   Sun Mar 3 22:34:14 2024 +0200
+
+    Merge branch 'Rud-basic-operations' into develop
+
+[33mcommit 4fdbd237d3d7d5bc6c5bad453310909d8c5525dc[m
+Author: SideQuest <krausermause.62@gmail.com>
+Date:   Sun Mar 3 22:31:47 2024 +0200
+
+    add comment
+
+[33mcommit 167188ec8f1fa4dfd0b7422ec79040a6062684af[m[33m ([m[1;32mRud-basic-operations[m[33m)[m
+Author: SideQuest <krausermause.62@gmail.com>
+Date:   Sun Mar 3 21:38:34 2024 +0200
+
+    add division operation
+
+[33mcommit bb36016cd01b5c022e9f56d739327d739db05c03[m
+Author: SideQuest <krausermause.62@gmail.com>
+Date:   Sun Mar 3 21:34:23 2024 +0200
+
+    add multiply operation
+
+[33mcommit 9ec1705068f3f68cd6b6d343f8600d3689787b64[m
+Author: SideQuest <krausermause.62@gmail.com>
+Date:   Sun Mar 3 21:30:42 2024 +0200
+
+    add minus operation
+
+[33mcommit 68871943e7a25b7baf1f5dc679fee2b3516fad04[m
+Author: SideQuest <krausermause.62@gmail.com>
+Date:   Sun Mar 3 21:24:16 2024 +0200
+
+    add plus operation ♥
+
+[33mcommit 71d42fc7bb5137674c20e6195b68ade28c14fd65[m
+Author: SideQuest <krausermause.62@gmail.com>
+Date:   Sun Mar 3 20:45:37 2024 +0200
+
+    add class calculator
