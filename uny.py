@@ -12,6 +12,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(second.plus(),8)
         self.assertEqual(third.plus(),60)
         self.assertEqual(fouth.plus(),110)
+
     def test_caluc2(self):
         first2 = caluc.calculator(2, 9)
         second2 = caluc.calculator(7,1)
@@ -22,6 +23,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(second2.minus(),6)
         self.assertEqual(third2.minus(),-36)
         self.assertEqual(fouth2.minus(),2)
+
     def test_caluc_multiply(self):
         first3 = caluc.calculator(2, 9)
         second3 = caluc.calculator(7,1)
@@ -32,15 +34,19 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(second3.multiply(),7)
         self.assertEqual(third3.multiply(),576)
         self.assertEqual(fouth3.multiply(),3024)
+
     def test_caluc_division(self):
         first4 = caluc.calculator(15, 3)
         second4 = caluc.calculator(18,3)
         third4 = caluc.calculator(144, 12)
         fouth4 = caluc.calculator(20, 5)
+        fifth4 = caluc.calculator(10,0)
 
         self.assertEqual(first4.division(),5)
         self.assertEqual(second4.division(),6)
         self.assertEqual(third4.division(),12)
         self.assertEqual(fouth4.division(),4)
+        self.assertEqual(fifth4.division(),"nakupuninin")
+
 if __name__ == "__main__":
     unittest.main()
